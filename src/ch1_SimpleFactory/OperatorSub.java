@@ -1,4 +1,4 @@
-package ch1;
+package ch1_SimpleFactory;
 
 public class OperatorSub extends Operator {
     @Override

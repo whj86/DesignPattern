@@ -1,6 +1,6 @@
-package ch1;
+package ch1_SimpleFactory;
 
-public class CreateOperator {
+public class OperatorFactory {
     public static Operator createOperator(String operator) {
         return switch (operator) {
             case "+" -> new OperatorAdd();

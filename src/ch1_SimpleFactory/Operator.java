@@ -1,4 +1,4 @@
-package ch1;
+package ch1_SimpleFactory;
 
 abstract class Operator {
     private int num1;
